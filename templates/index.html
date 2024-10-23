@@ -13,7 +13,51 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<style>
+  /* Footer styles */
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 0; /* 4px top and bottom margin */
+  }
 
+  .Links-generated {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .Links-generated div {
+    margin-right: 20px; /* Space between the links generated and visitors */
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 4px 0; /* Reduced top and bottom margin */
+  }
+
+  /* 2px gap between icon and text */
+  .Links-generated i, .footer-container i {
+    margin-right: 2px;
+  }
+
+  /* Ensure proper spacing between footer elements */
+  .footer-container div {
+    margin-right: 20px;
+  }
+
+  /* Optional heart style */
+  .heart {
+    color: red;
+  }
+</style>
+
+</style>
 <body>
 
   <div class="overlay"></div>
@@ -30,9 +74,10 @@
         <i class="fa fa-bars"></i>
     </label>
     <ul>
-      <li><a href="/knowmore" class="btn">Know More</a></li>
       <li><a href="/analytics" class="btn ">Analytics</a></li>
       <li><a href="/documentation" class="btn documentation">Documentation</a></li>
+      <li><a href="/knowmore" class="btn">Know More</a></li>
+
     </ul>
   </header>
 
@@ -52,8 +97,8 @@
           <p id="keywordError"></p>
         </div>
         <div style="margin-top: 10px;" class="mb-3 row">
-          <div class="d-flex justify-content-center" style="margin-top: 8px; margin-bottom: 8px;">
-            <div style="font-size: 25px;">Set Link Expiration (Optional)</div>
+          <div class="d-flex justify-content-center" style="margin-top: 5px; margin-bottom: 5px;">
+            <div style="font-size: 20px;">Set Link Expiration (Optional)</div>
           </div>
           
           <div class="col-md-4">
@@ -89,12 +134,31 @@
 
   <!-- Footer Section -->
   <footer class="footer">
-    <div>
-      <a href="https://example.com" target="_blank">Open Source Developed <span class="heart">❤</span></a>
-    </div>
-    <div class="footer-details">
-      <p>HacktoberFest 2024</p>
-    </div>
+<!-- Links-generated section with visitors and links count -->
+<div class="Links-generated" style="display: flex; justify-content: center; align-items: center; width: 100%;">
+  <div style="margin-right: 20px;">
+    <i class="fa-solid fa-link"></i> Links Generated: <span id="link-count">{{ links_generated_count }}</span>
+  </div>
+  <div>
+    <i class="fa-solid fa-users"></i> Visitors: <span id="visitors-count">{{ visitors_count }}</span>
+  </div>
+</div>
+
+<!-- Footer section in a single row -->
+<div class="footer-container" style="display: flex; justify-content: center; align-items: center; width: 100%; margin-top: 10px;">
+  <div style="margin-right: 20px;">
+    <a href="https://example.com" target="_blank">Open Source Developed <span class="heart">❤</span></a>
+  </div>
+  <div class="footer-details">
+    <p>X</p>
+  </div>
+
+  <div class="footer-details">
+    <p>HacktoberFest 2024</p>
+  </div>
+</div>
+
+
   </footer>
 
   <script>
@@ -172,6 +236,9 @@
             <span style="color: white;">Shortened URL:</span> <a href="${data.shortUrl}" class="short-url" target="_blank">${data.shortUrl}</a>
             <i class="fas fa-copy copy-icon" title="Copy to clipboard"></i>
         `;
+        // Update the Links-generated section with the new counts
+        document.getElementById('link-count').innerText = data.linkCount;      
+        document.getElementById('visitors-count').innerText = data.visitorsCount; 
 
         // Add click event for the copy icon
         const copyIcon = document.querySelector('.copy-icon');
