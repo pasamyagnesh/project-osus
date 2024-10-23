@@ -13,7 +13,49 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='analytics.css') }}">
 
 </head>
-
+<style>
+    /* Footer styles */
+    footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 4px 0; /* 4px top and bottom margin */
+    }
+  
+    .Links-generated {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .Links-generated div {
+      margin-right: 20px; /* Space between the links generated and visitors */
+    }
+  
+    .footer-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 4px 0; /* Reduced top and bottom margin */
+    }
+  
+    /* 2px gap between icon and text */
+    .Links-generated i, .footer-container i {
+      margin-right: 2px;
+    }
+  
+    /* Ensure proper spacing between footer elements */
+    .footer-container div {
+      margin-right: 20px;
+    }
+  
+    /* Optional heart style */
+    .heart {
+      color: red;
+    }
+  </style>
 <body>
 
   <div class="overlay"></div>
@@ -30,9 +72,10 @@
         <i class="fa fa-bars"></i>
     </label>
     <ul>
-      <li><a href="/knowmore" class="btn">Know More</a></li>
       <li><a href="/" class="btn ">Home</a></li>
       <li><a href="/documentation" class="btn documentation">Documentation</a></li>
+      <li><a href="/knowmore" class="btn">Know More</a></li>
+
     </ul>
   </header>
 
@@ -63,12 +106,20 @@
 
   <!-- Footer Section -->
   <footer class="footer">
-    <div>
+    
+<!-- Footer section in a single row -->
+<div class="footer-container" style="display: flex; justify-content: center; align-items: center; width: 100%; margin-top: 10px;">
+    <div style="margin-right: 20px;">
       <a href="https://example.com" target="_blank">Open Source Developed <span class="heart">❤</span></a>
     </div>
     <div class="footer-details">
+      <p>X</p>
+    </div>
+  
+    <div class="footer-details">
       <p>HacktoberFest 2024</p>
     </div>
+  </div>
   </footer>
 
   <script>
