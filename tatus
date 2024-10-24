@@ -1,0 +1,254 @@
+[33mcommit 409dc711d4965a361fda40b29cd278687d012fbe[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mWebTracffic[m[33m)[m
+Author: pasamyagnesh <pasamyagnesh@gmail.com>
+Date:   Thu Oct 24 02:42:34 2024 +0530
+
+    Your commit message
+
+[33mcommit 0bf92e5a716f2cede34685c49d3d9b8c3c4f2a6e[m[33m ([m[1;31morigin/analytics[m[33m, [m[1;32mnew-feature[m[33m, [m[1;32manalytics[m[33m)[m
+Author: pasamyagnesh <pasamyagnesh@gmail.com>
+Date:   Wed Oct 23 23:10:59 2024 +0530
+
+    Added link expiry feature
+
+[33mcommit d51ae787593b51f7f7edb5a1a8deb52f1056c097[m
+Author: pasamyagnesh <pasamyagnesh@gmail.com>
+Date:   Wed Oct 23 14:56:54 2024 +0530
+
+    Link expiry feature added
+
+[33mcommit 795605a9d9dea30f85c598c2e0f57823128f9c74[m[33m ([m[1;31mupstream/main[m[33m)[m
+Merge: 5fe4590 9d84d4f
+Author: Santhosh <75167331+DCGUY009@users.noreply.github.com>
+Date:   Tue Oct 22 21:56:16 2024 +0530
+
+    Merge pull request #68 from harshithtunuguntla/render404
+    
+    Rendered Error Page
+
+[33mcommit 9d84d4f03272ba1d79f059087aa3e03b9b0ffcf2[m[33m ([m[1;31mupstream/render404[m[33m)[m
+Author: Samudrala Santhosh <samudrala.santhosh.19cse@bmu.edu.in>
+Date:   Tue Oct 22 21:53:51 2024 +0530
+
+    Rendered Error Page
+
+[33mcommit 5fe4590a12c92912ea9a3f33934d5eb726f5fabe[m
+Merge: 2deb492 64950a9
+Author: Santhosh <75167331+DCGUY009@users.noreply.github.com>
+Date:   Tue Oct 22 21:38:27 2024 +0530
+
+    Merge pull request #66 from adarsh4k/Code-refactor
+    
+    Code refactored for improved readability and efficiency
+
+[33mcommit 64950a9c812cbd6b377cb9e15cfd6b20b4b963fc[m
+Merge: c899373 2deb492
+Author: Santhosh <75167331+DCGUY009@users.noreply.github.com>
+Date:   Tue Oct 22 21:38:10 2024 +0530
+
+    Merge branch 'main' into Code-refactor
+
+[33mcommit c8993735652de3b97cb93e99baaa0750476f3702[m
+Author: unknown <adarsh4k.in@gmail.com>
+Date:   Mon Oct 21 21:58:46 2024 +0530
+
+    code refactored for improved readability and efficiency
+
+[33mcommit 2deb49219ab1a33146400eb9026e55d205a9bd9c[m
+Merge: d3a82c7 cf8cee8
+Author: Santhosh <75167331+DCGUY009@users.noreply.github.com>
+Date:   Mon Oct 21 00:21:03 2024 +0530
+
+    Merge pull request #64 from Sumit1911/fix-issue-#51
+    
+    Fix issue #51
+
+[33mcommit cf8cee85e78df03307025c694403d72b920d5249[m
+Author: Sumit Kumar <sk3700844@gmail.com>
+Date:   Sun Oct 20 23:14:00 2024 +0530
+
+    resolve responsiveness issues
+
+[33mcommit 59ee3de4de7017fc0e1623aa2e9cd145cd4ac9de[m
+Author: Sumit Kumar <sk3700844@gmail.com>
+Date:   Sun Oct 20 22:54:11 2024 +0530
+
+    resolve some issue in reponsiveness
+
+[33mcommit 78a51ff18feb62afafd07e14d1621193a78805f1[m
+Author: Sumit Kumar <sk3700844@gmail.com>
+Date:   Sun Oct 20 21:07:33 2024 +0530
+
+    update some minor changes in responsiveness
+
+[33mcommit 925a798581b0be6845b41c0214df3b247579da61[m
+Author: Sumit Kumar <sk3700844@gmail.com>
+Date:   Sun Oct 20 21:00:03 2024 +0530
+
+    responsive the pages
+
+[33mcommit 099d03d1f15700ec90b24747675b6f717894f041[m
+Merge: be0dbfc d3a82c7
+Author: Sumit Kumar <126273996+Sumit1911@users.noreply.github.com>
+Date:   Sat Oct 19 21:36:52 2024 +0530
+
+    Merge branch 'harshithtunuguntla:main' into main
+
+[33mcommit d3a82c74e00c9ca13676bc7640b8b619b31c82a6[m
+Merge: 563da92 105d1ae
+Author: Santhosh <75167331+DCGUY009@users.noreply.github.com>
+Date:   Sat Oct 19 21:29:45 2024 +0530
+
+    Merge pull request #60 from AmanWebDev2/main
+    
+    Fixed: Buttons are not consistent with Home Page in Analytics page #59
+
+[33mcommit 105d1ae88bb8e2b87f56c509332b4282b966af7f[m
+Author: AmaN <webdevaman2@gmail.com>
+Date:   Sat Oct 19 20:27:22 2024 +0530
+
+    Fixed: Buttons are not consistent with Home Page in Analytics page #59
+    fixed css property
+
+[33mcommit 563da92a01917a2d0a94972e47e0c7ebbafe6752[m
+Merge: 8364233 6840592
+Author: Santhosh <75167331+DCGUY009@users.noreply.github.com>
+Date:   Sat Oct 19 18:04:14 2024 +0530
+
+    Merge pull request #54 from pasamyagnesh/analytics
+    
+    Resolved the issues in 404 page
+
+[33mcommit 836423394387302ad140cd7cf61f07891d473e0c[m
+Merge: d6d9c48 454adfc
+Author: Santhosh <75167331+DCGUY009@users.noreply.github.com>
+Date:   Fri Oct 18 00:07:46 2024 +0530
+
+    Merge pull request #56 from Annapoornaaradhya/Code_of_Conduct
+    
+    Create Code_of_Conduct.md
+
+[33mcommit be0dbfc19cc1f4c9f679d73c14fd41cfea31aaad[m
+Author: Sumit Kumar <sk3700844@gmail.com>
+Date:   Thu Oct 17 17:21:41 2024 +0530
+
+    responsiveness
+
+[33mcommit 454adfc8a320413b9bb525abc793e1c6b309c36a[m
+Author: ANNAPOORNA V <annapoornaaradhya@gmail.com>
+Date:   Thu Oct 17 11:51:46 2024 +0530
+
+    Create Code_of_Conduct.md
+
+[33mcommit 684059215509dbb3c4e97182cf7b9979c5940947[m
+Author: pasamyagnesh <pasamyagnesh@gmail.com>
+Date:   Wed Oct 16 23:16:37 2024 +0530
+
+    Small erros Fix
+
+[33mcommit 44abf6c408fbaa56544369c3df2f253f2b2710b8[m
+Author: pasamyagnesh <pasamyagnesh@gmail.com>
+Date:   Wed Oct 16 23:11:52 2024 +0530
+
+    404 page modified
+
+[33mcommit ae0d71de5aaa25ca8a2a0b1fbf0add9aeb8af5d0[m
+Author: pasamyagnesh <pasamyagnesh@gmail.com>
+Date:   Wed Oct 16 23:10:54 2024 +0530
+
+    app.py modified (404 error resoved)
+
+[33mcommit d6d9c4822dab514f5fe8ca55862da20a6b6320ee[m
+Merge: 9e35fd2 1ab1834
+Author: Santhosh <75167331+DCGUY009@users.noreply.github.com>
+Date:   Tue Oct 15 23:15:29 2024 +0530
+
+    Merge pull request #52 from pasamyagnesh/analytics
+    
+    Implement /analytics route to track views of shortened URLs
+
+[33mcommit 9e35fd290783cd313205f6d17a8bf7a6e08b9632[m
+Merge: 00820d4 aef4dc1
+Author: Santhosh <75167331+DCGUY009@users.noreply.github.com>
+Date:   Tue Oct 15 22:51:13 2024 +0530
+
+    Merge pull request #50 from Shashi1024/main
+    
+    Chnaged Hover Effects of Buttons in the navbar #46
+
+[33mcommit 1ab18341ee3215c2c2a8ba9b3e0f56779f6116a8[m
+Author: pasamyagnesh <pasamyagnesh@gmail.com>
+Date:   Tue Oct 15 21:37:36 2024 +0530
+
+    Imported the design from the index.html to analytics.html
+
+[33mcommit 9fc6dd7be6af0d1bbc792e54628ee5cd81dc96e5[m
+Author: pasamyagnesh <pasamyagnesh@gmail.com>
+Date:   Tue Oct 15 21:35:58 2024 +0530
+
+     /analytics route created and /<keyword> edited to increment clicks
+
+[33mcommit c21e626f0f5a42a06763388ce7d4c7050b19d993[m
+Author: pasamyagnesh <pasamyagnesh@gmail.com>
+Date:   Tue Oct 15 21:34:47 2024 +0530
+
+    Analytics.html page created
+
+[33mcommit aef4dc163d1740418113829969e9cfb6dcafa2f6[m
+Author: Shashi1024 <saishashi2004@gmail.com>
+Date:   Tue Oct 15 12:38:10 2024 +0530
+
+    Chnaged Hover Effects of Buttons in the navbar
+
+[33mcommit 00820d485f40ff13e67b174ccc8087113ac86db6[m[33m ([m[1;32mmain[m[33m)[m
+Author: Deepak-Perla <deepakperla.offl@gmail.com>
+Date:   Mon Oct 14 21:12:08 2024 +0530
+
+    Updated minor fixes
+
+[33mcommit 30c7f6aa5c4618db100714dd94a9d235226e770c[m
+Merge: 44a3869 9c63191
+Author: Deepak Perla <71626642+Deepak-Perla@users.noreply.github.com>
+Date:   Mon Oct 14 20:41:03 2024 +0530
+
+    Merge pull request #43 from khangklj/fix-issue-#10
+    
+    Fix issue #10: Keyword Validation for URL Shortening
+
+[33mcommit 9c63191afa1fd54df6836a18a96cd2582f6476c1[m
+Merge: 4de7712 44a3869
+Author: Deepak Perla <71626642+Deepak-Perla@users.noreply.github.com>
+Date:   Mon Oct 14 20:40:06 2024 +0530
+
+    Merge branch 'main' into fix-issue-#10
+
+[33mcommit 44a3869a6c705b7f138af2586fa7df1cf620c519[m
+Merge: 72d1538 4dd2431
+Author: Deepak Perla <71626642+Deepak-Perla@users.noreply.github.com>
+Date:   Mon Oct 14 18:54:57 2024 +0530
+
+    Merge pull request #48 from Sumit1911/fix-issue-#45
+    
+    adding icon for browser tab
+
+[33mcommit 4dd24317e4af03017662959261d76d380acc3075[m
+Author: Sumit Kumar <sk3700844@gmail.com>
+Date:   Mon Oct 14 17:55:51 2024 +0530
+
+    add logo beside OSUS in navbar
+
+[33mcommit 72d153832d0cf051ea0b028ce1317ae311290c23[m
+Merge: 0154a32 bf482a5
+Author: Deepak Perla <71626642+Deepak-Perla@users.noreply.github.com>
+Date:   Mon Oct 14 16:59:36 2024 +0530
+
+    Merge pull request #47 from devesh711/dp-fix-issue-#11
+    
+    improve error handling in duplicate keyword fix #11
+
+[33mcommit 5c54daa089cd2fbcfe9b7d88c3c05ecc4bd05486[m
+Author: Sumit Kumar <sk3700844@gmail.com>
+Date:   Mon Oct 14 16:22:25 2024 +0530
+
+    adding icon for browser tab
+
+[33mcommit bf48
